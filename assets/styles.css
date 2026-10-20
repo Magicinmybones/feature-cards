@@ -59,6 +59,19 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-r
 .c4 .foot h3{left:91.5px;font-size:25.5px}
 .c3 .foot p,.c4 .foot p{top:52.7px}
 
+/* Hide only entrance performers before the choreography starts. Card shells,
+   light fields, and decorative artwork remain in their authored state. */
+html.entry-prep .c1 .row,
+html.entry-prep .c2 .panel,
+html.entry-prep .c2 .pill,
+html.entry-prep .c2 .rate,
+html.entry-prep .c3 .bar,
+html.entry-prep .c4 .box,
+html.entry-prep .c4 .menu,
+html.entry-prep .foot .ico,
+html.entry-prep .foot h3,
+html.entry-prep .foot p{opacity:0}
+
 /* ---------- glow primitives ---------- */
 .blur{position:absolute;pointer-events:none}
 
